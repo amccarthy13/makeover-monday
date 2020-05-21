@@ -1,0 +1,21 @@
+text {
+  font-family: 'Roboto',sans-serif;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: .5rem;
+  color: white;
+  background: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  pointer-events: none;
+  font-size: 0.8rem;
+}
+
+.axis--x path {
+  display: none;
+}
+
+
